@@ -1,0 +1,57 @@
+.team-matches {
+  width: 180px;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid #475569;
+  background-color: #1e293b;
+  text-decoration: none;
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+@media (min-width: 576px) {
+  .team-matches {
+    width: 250px;
+    height: 100px;
+    margin: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .team-matches {
+    width: 330px;
+    height: 110px;
+    margin: 20px;
+  }
+}
+
+.team-card {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+}
+
+.team-card-img {
+  height: 50px;
+  width: 40px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .team-card-img {
+    height: 70px;
+    width: 60px;
+    margin-right: 20px;
+  }
+}
+
+.team-card-name {
+  color: #ffffff;
+  font-family: Bree Serif;
+  text-align: center;
+  align-self: center;
+}

@@ -1,0 +1,80 @@
+.team-matches-route {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .team-matches-route {
+    padding: 60px;
+  }
+}
+
+.team-banner {
+  width: 90%;
+}
+
+.team-matches-heading {
+  color: #ffffff;
+  font-family: Bree Serif;
+  align-self: flex-start;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .team-matches-heading {
+    margin-left: 60px;
+    font-size: 24px;
+  }
+}
+
+.recent-match-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .recent-match-list {
+    gap: 35px;
+  }
+}
+
+.RCB {
+  background-color: #a4261d;
+}
+
+.KKR {
+  background-color: #5755a7;
+}
+
+.KXP {
+  background-color: #d91c1f;
+}
+
+.CSK {
+  background-color: #f7db00;
+}
+
+.RR {
+  background-color: #da237b;
+}
+
+.MI {
+  background-color: #13418b;
+}
+
+.SH {
+  background-color: #f26d22;
+}
+
+.DC {
+  background-color: #4f5db0;
+}
